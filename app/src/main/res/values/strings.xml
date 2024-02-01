@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">Hello World</string>
-    <string name="first">&lt;Text Goes Here&gt;</string>
-    <string name="hello_world">Hello World</string>
-    <string name="say_hello">Say Hello</string>
+    <string name="app_name">GeoQuiz</string>
+    <string name="question_australia">Canberra is the capital of Australia.</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea.</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="next_button">Next</string>
+    <string name="correct_toast">Correct!</string>
+        <string name="incorrect_toast">Incorrect!</string>
+    <string name="correct_snack">Correct!</string>
+        <string name="incorrect_snack">Incorrect!</string>
 </resources>
