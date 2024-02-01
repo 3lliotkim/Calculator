@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.cs501_assignment1"
+    namespace = "com.example.SimpleCalc"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.cs501_assignment1"
+        applicationId = "com.example.SimpleCalc"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

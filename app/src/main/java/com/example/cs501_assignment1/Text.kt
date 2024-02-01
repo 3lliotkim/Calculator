@@ -1,4 +1,4 @@
-package com.example.cs501_assignment1
+package com.example.SimpleCalc
 
 import androidx.annotation.StringRes
 

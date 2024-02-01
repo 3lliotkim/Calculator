@@ -1,12 +1,15 @@
 <resources>
-    <string name="app_name">GeoQuiz</string>
-    <string name="question_australia">Canberra is the capital of Australia.</string>
-    <string name="question_mideast">The Suez Canal connects the Red Sea.</string>
-    <string name="true_button">True</string>
-    <string name="false_button">False</string>
-    <string name="next_button">Next</string>
-    <string name="correct_toast">Correct!</string>
-        <string name="incorrect_toast">Incorrect!</string>
-    <string name="correct_snack">Correct!</string>
-        <string name="incorrect_snack">Incorrect!</string>
+    <string name="app_name">SimpleCalc</string>
+    <string name="firstNum">First Num</string>
+    <string name="secondNum">Second Num</string>
+    <string name="clear">0</string>
+    <string name="addition">+</string>
+    <string name="subtraction">-</string>
+    <string name="multiplication">*</string>
+    <string name="division">/</string>
+    <string name="modulo">%</string>
+    <string name="calculate">=</string>
+    <string name="output"> </string>
+    <string name="missing_operation">Please Select an Operation</string>
+    <string name="zero_divide">Divide by Zero Not Allowed</string>
 </resources>

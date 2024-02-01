@@ -6,13 +6,34 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/question_text_view"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="24dp"
-        tools:text="@string/question_australia" />
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/first_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/firstNum"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/operation_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="24dp"
+            tools:text="@string/clear" />
+
+        <EditText
+            android:id="@+id/second_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/secondNum"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -20,22 +41,60 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/true_button"
+            android:id="@+id/addition"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/true_button" />
+            android:text="@string/addition" />
 
         <Button
-            android:id="@+id/false_button"
+            android:id="@+id/subtraction"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/false_button" />
+            android:text="@string/subtraction" />
     </LinearLayout>
 
-    <Button
-        android:id="@+id/next_button"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/next_button" />
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/multiplication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiplication" />
+
+        <Button
+            android:id="@+id/division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/division" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/modulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/modulo" />
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/output_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="24dp"
+        tools:text="@string/output" />
 
 </LinearLayout>
